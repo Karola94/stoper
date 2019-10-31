@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.stoper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #5b7a63;    
+    min-height: 300px;   
+    padding: 10px 40px 40px; 
+}
+.controls a{    
+    text-decoration: none;
+    margin: 0 5px;
+    border: 2px solid #7a917f;
+    background: #dae3dc;  
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;  
+}
+.controls a:hover {
+    background: #7a917f;
+    color: #fff;    
+}
+.stopwatch {
+    align-self: center;
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #d0dbd3;
+}
+.timesList {
+    align-self: center;    
+    font-size: 25px;
+    text-align: center;
+    color: #d0dbd3;
+    background: #4f6b56;
+    min-height: 200px;
+    padding: 5px;
+    min-width: 250px;;
+}
+.timesList span {
+    text-decoration: underline;
+}
+.timesList > ul > li {
+    text-decoration: none;
+    list-style-type: decimal;
+}
