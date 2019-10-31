@@ -17,14 +17,14 @@ class Stopwatch {
     }
     format(times) {
         return `${pad0(times.minutes)}:${pad0(times.seconds)}:${pad0(Math.floor(times.miliseconds))}`;
-    }
+    }   
     pad0(value) {
         let result = value.toString();
         if (result.length < 2) {
             result = '0' + result;
         }
         return result;
-    }
+    } 
 }
 
 const stopwatch = new Stopwatch(
@@ -35,3 +35,4 @@ startButton.addEventListener('click', () => stopwatch.start());
 
 let stopButton = document.getElementById('stop');
 stopButton.addEventListener('click', () => stopwatch.stop());
+
